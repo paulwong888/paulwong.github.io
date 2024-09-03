@@ -1,0 +1,83 @@
+<main class="main" id="main">
+
+  <!-- Page Title -->
+  <div class="page-title" data-aos="fade">
+    <div class="container d-lg-flex justify-content-between align-items-center">
+      <h1 class="mb-2 mb-lg-0">Project Details</h1>
+      <nav class="breadcrumbs">
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li class="current">Project Details</li>
+        </ol>
+      </nav>
+    </div>
+  </div><!-- End Page Title -->
+
+  <!-- Portfolio Details Section -->
+  <section id="portfolio-details" class="portfolio-details section">
+
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-8">
+          <div class="portfolio-details-slider swiper">
+
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                }
+              }
+            </script>
+
+            <div >
+
+              <div>
+                <img src="assets/img/portfolio/cds/Hong-Kong-Officially-Launches-Its-Credit-Reference-Platform-2-720x267.png" alt="">
+              </div>
+              <br>
+              <div>
+                <img src="assets/img/portfolio/cds/batch-control-monitoring-MCRA-3.drawio.png" alt="">
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+            <h3>Project information</h3>
+            <ul>
+              <!-- <li><strong>Category</strong>: Web design</li> -->
+              <li><strong>Company</strong>: NOVA-CREDIT</li>
+              <li><strong>Project date</strong>: 01 March, 2021</li>
+              <li><strong>Project URL</strong>: <a href="https://www.hkma.gov.hk/eng/news-and-media/press-releases/2022/11/20221128-3/" target="_blank">https://www.hkma.gov.hk/eng/news-and-media/press-releases/2022/11/20221128-3/</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-10" data-aos="fade-up" data-aos-delay="300">
+            <h2>Credit Reference Platform from Hong Kong Monetary Authority (HKMA)</h2>
+            <p>
+              With the facilitation of the HKMA, the CRP aims to cultivate a competitive environment for the consumer credit reference industry to enhance the service quality of selected CRAs while reducing the operational risk of single-point failure arising from reliance on one single CRA in the market. The CRP is owned by the Industry Associations comprising The Hong Kong Association of Banks (HKAB), the Hong Kong Association of Restricted Licence Banks and Deposit-taking Companies (DTCA), and the Hong Kong S.A.R. Licensed Money Lenders Association Limited (LMLA).
+              <br><br> I built this platform at CRA side from zero, which can be deployed cross 2 data centers in active-active mode with high availability, good performance, low lantency, high scalability, reusability, security attributes. 
+              all components redundant on both sites and can easily scale up.  using  event driven architecture to decuple with business system and based on microservice architecture which make deployment independently by module.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section><!-- /Portfolio Details Section -->
+
+</main>
